@@ -1,5 +1,5 @@
 'use strict';
-var id_week_number = document.getElementById('week-number');
+var id_week_number = function counter();
 var id_date = document.getElementById('date');
 
 function isLeap(year) {
