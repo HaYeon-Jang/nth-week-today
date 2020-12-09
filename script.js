@@ -49,6 +49,11 @@ function renderPage(date) {
     id_date.innerText = date.toLocaleString();
 }
 
+function abc() {
+	id_week_number = counter();
+}
+	
+
 function counter(){
     var dday = new Date("Dec 12,2019,09:00:00").getTime(); //디데이
 	setInterval(function(){
