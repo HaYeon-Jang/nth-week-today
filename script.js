@@ -1,7 +1,9 @@
 'use strict';
 var id_week_number = document.getElementById('corona');
 var id_date = document.getElementById('date');
+var id_cor = document.getElementById('cor');
 
+id_cor = counter();
 
 function isLeap(year) {
     if (year % 400 == 0) return true;
@@ -49,6 +51,7 @@ function renderPage(date) {
     id_week_number.innerText = week_number;
     id_date.innerText = date.toLocaleString();
 }
+
 
 function counter(){
     var dday = new Date("Dec 12,2019,09:00:00").getTime(); //디데이
